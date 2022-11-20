@@ -6,7 +6,7 @@ public class Articulo {
     String nombre, tipo_articulo;
     int precio, codigo_producto;
     double peso_kg;
-
+// SE CREA VARIABLE CODIGO_PRODUCTO PARA TENER CLAVE FORANEA (PRIMARY KEY)
     public Articulo(String nombre, String tipo_articulo, double peso_kg, int precio, int codigo_producto) {
         this.nombre = nombre;
         this.tipo_articulo = tipo_articulo;
@@ -40,7 +40,7 @@ public class Articulo {
         this.precio = precio;
     }
 
-    public Row6 getCodigo_producto() {
+    public int getCodigo_producto() {
         return codigo_producto;
     }
 

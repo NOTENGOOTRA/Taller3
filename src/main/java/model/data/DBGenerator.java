@@ -36,6 +36,7 @@ public class DBGenerator {
         DSLContext create=DSL.using(connection);
         return create;
     }
+    // CREACION TABLAS
     private static void crearTablaCliente(DSLContext create){
         create.createTableIfNotExists("Cliente").column("rut",VARCHAR(20))
                 .column("nombre",VARCHAR(50))
