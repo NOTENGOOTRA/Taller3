@@ -19,7 +19,7 @@
   <label class="campoTexto"> Articulo : <c:out value="${articulo.getNombre()}"></c:out> </label>
   <br>
   <label class="campoTexto">Codigo Producto : <c:out value="${articulo.getCodigo_producto()}"></c:out></label>
-  <a class="boton" href="/RegistroPersonas">Volver</a>
+  <a class="boton" href="/registroArticulo">Volver</a>
 </div>
 </body>
 </html>
