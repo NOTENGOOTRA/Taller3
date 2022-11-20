@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1 class="encabezado"> Registro cliente</h1>
-<form action="registroCliente.jsp" method="post">
+<form action="registroCliente" method="post">
     <div class="centrado">
         <label> Nombre:</label>
         <input name="nombre" type="text" class="campoTexto">
