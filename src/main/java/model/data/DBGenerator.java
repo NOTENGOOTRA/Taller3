@@ -18,7 +18,7 @@ public class DBGenerator {
         create = actualizarConexion(connection, registroInventario);
         crearTablaCliente(create);
         crearTablaArticulo(create);
-        relacionarTabla(create, "Estudiante", "codigo_carrera", "Carrera");
+
         DBConnector.closeConnection();
     }
 
